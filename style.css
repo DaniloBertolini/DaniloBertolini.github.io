@@ -1,13 +1,31 @@
-
 .fotos{
     width: 358px;
 }
+.linha{
 
-p, ul{
-    font-size: 16px;
-    font-family:monospace;
+    }
+body{
+    font-size: 18px;
+    background-color: #577c80;
 }
-
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.marginleft{
+    margin-left: 2%;
+}
+.coluna45{
+    width: 45%;
+}
+p, ul{
+    font-family:monospace;
+    text-align: justify;
+}
 #ztype{
     text-decoration: none;
     color: blue;
