@@ -2,11 +2,16 @@
     width: 358px;
 }
 .linha{
-
+    display: flex;
     }
+#habilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 body{
     font-size: 18px;
-    background-color: #577c80;
+    background-image: linear-gradient(to right bottom, #1c3dd8, #2055e1, #2f6ae8, #447eed, #5b92f0, #4ea3f8, #48b3fc, #4ec2ff, #11d3ff, #00e2ff, #00f1ff, #00fff3);
 }
 h1{
     font-size: 50px;
@@ -19,14 +24,25 @@ h2{
 .marginleft{
     margin-left: 2%;
 }
-.coluna45{
-    width: 45%;
+
+.coluna50{
+    width: 50%;
 }
 p, ul{
     font-family:monospace;
     text-align: justify;
 }
+.centro{
+    text-align: center;
+}
 #ztype{
     text-decoration: none;
-    color: blue;
+    color: white;
+}
+.botao{
+    
+    background-color: green;
+    padding: 15px;
+    max-width: 250px;
+    border-radius: 10px;
 }
