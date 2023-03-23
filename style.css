@@ -1,13 +1,21 @@
 .fotos{
     width: 358px;
+    border-radius: 200px;
 }
 .linha{
     display: flex;
     }
-#habilidade{
+.habilidade{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.fotoalin{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    align-items: flex-start;
 }
 body{
     font-size: 18px;
