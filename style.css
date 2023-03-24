@@ -70,7 +70,7 @@ p, ul{
     border-bottom: 5px solid aqua;
 }
 .sob{
-    margin: 5% 5% 0 5%;
+    margin: 5%;
 }
 .bot{
     margin-bottom: 2%;
@@ -85,13 +85,15 @@ p, ul{
 .carrossel{
     width: 100%;
     display: flex;
-    justify-content: center;
+    padding-left: 22%;
     height: 600px;
     padding-top: 100px;
 }
 
-#h2hob{
+.h2hob{
     font-size: 50px;
-    border-top: 5px solid aqua;
-    border-bottom: 5px solid aqua;
+    border-width: 5px 0;
+    border-color: aqua;
+    border-style: solid;
 }
+
