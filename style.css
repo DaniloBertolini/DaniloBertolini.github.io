@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .fotos{
     width: 358px;
     border-radius: 200px;
@@ -14,15 +18,16 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    gap: 100px;
+    gap: 70px;
     align-items: flex-start;
+    padding-top: 100px;
 }
 body{
     font-size: 18px;
     background-image: linear-gradient(to right bottom, #1c3dd8, #2055e1, #2f6ae8, #447eed, #5b92f0, #4ea3f8, #48b3fc, #4ec2ff, #11d3ff, #00e2ff, #00f1ff, #00fff3);
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
 }
 h2{
@@ -56,4 +61,44 @@ p, ul{
     padding: 15px;
     max-width: 250px;
     border-radius: 10px;
+}
+
+#titulo{
+    border: aqua solid;
+    padding-bottom: 2px;
+    border: 0;
+    border-bottom: 5px solid aqua;
+}
+.sob{
+    margin: 5%;
+}
+.bot{
+    margin-bottom: 2%;
+    margin-top: 2%; 
+}
+
+.hobbies{
+    transition: all 150ms;
+    position: absolute;
+}
+
+.carrossel{
+    padding-left: 22%;
+    height: 600px;
+    padding-top: 100px;
+    
+}
+
+.h2hob{
+    font-size: 50px;
+    border-width: 5px 0;
+    border-color: aqua;
+    border-style: solid;
+}
+
+.texthob{
+    width: 50%;
+    padding-top: 13%;
+    padding-left: 40%;
+    max-width: 40%;
 }
