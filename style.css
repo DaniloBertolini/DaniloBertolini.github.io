@@ -20,13 +20,14 @@
     justify-content: center;
     gap: 70px;
     align-items: flex-start;
+    padding-top: 100px;
 }
 body{
     font-size: 18px;
     background-image: linear-gradient(to right bottom, #1c3dd8, #2055e1, #2f6ae8, #447eed, #5b92f0, #4ea3f8, #48b3fc, #4ec2ff, #11d3ff, #00e2ff, #00f1ff, #00fff3);
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
 }
 h2{
@@ -46,7 +47,6 @@ h2{
 p, ul{
     font-family:monospace;
     text-align: justify;
-    text;
 }
 .centro{
     text-align: center;
@@ -64,12 +64,34 @@ p, ul{
 }
 
 #titulo{
-    padding-top: 50px;
-    padding-bottom: 100px;
+    border: aqua solid;
+    padding-bottom: 2px;
+    border: 0;
+    border-bottom: 5px solid aqua;
 }
-#sob{
-    margin: 5%;
+.sob{
+    margin: 5% 5% 0 5%;
 }
 .bot{
     margin-bottom: 2%;
+    margin-top: 2%; 
+}
+
+.hobbies{
+    transition: all 150ms;
+    position: absolute;
+}
+
+.carrossel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    padding-top: 100px;
+}
+
+#h2hob{
+    font-size: 50px;
+    border-top: 5px solid aqua;
+    border-bottom: 5px solid aqua;
 }
