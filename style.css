@@ -83,11 +83,10 @@ p, ul{
 }
 
 .carrossel{
-    width: 100%;
-    display: flex;
     padding-left: 22%;
     height: 600px;
     padding-top: 100px;
+    
 }
 
 .h2hob{
@@ -97,3 +96,9 @@ p, ul{
     border-style: solid;
 }
 
+.texthob{
+    width: 50%;
+    padding-top: 13%;
+    padding-left: 40%;
+    max-width: 40%;
+}
