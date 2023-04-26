@@ -1,104 +1,55 @@
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.fotos{
-    width: 358px;
-    border-radius: 200px;
+
+body {
+    font-family: 'Silkscreen', cursive;
 }
-.linha{
+
+.header-section-container {
     display: flex;
-    }
-.habilidade{
+    justify-content: center;
+    background-color: #02041A;
+    border-bottom: 2px solid #004997;
+    position: fixed;
+    width: 100%;
+}
+
+.header-center {
+    width: 50%;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
-.fotoalin{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 70px;
-    align-items: flex-start;
-    padding-top: 100px;
-}
-body{
-    font-size: 18px;
-    background-image: linear-gradient(to right bottom, #1c3dd8, #2055e1, #2f6ae8, #447eed, #5b92f0, #4ea3f8, #48b3fc, #4ec2ff, #11d3ff, #00e2ff, #00f1ff, #00fff3);
-}
-h1{
-    font-size: 70px;
-    text-align: center;
-}
-h2{
-    font-size: 40px;
-    text-align: center;
-}
-.marginleft{
-    margin-left: 2%;
-}
 
-.coluna50{
-    width: 50%;
-}
-.margin100b{
-    margin-bottom: 100px;
-}
-p, ul{
-    font-family:monospace;
-    text-align: justify;
-}
-.centro{
-    text-align: center;
-}
-#ztype{
+header a {
+    display: flex;
+    height: 75px;
     text-decoration: none;
     color: white;
-}
-.botao{
-    
-    background-color: green;
-    padding: 15px;
-    max-width: 250px;
-    border-radius: 10px;
+    flex-grow: 1;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-#titulo{
-    border: aqua solid;
-    padding-bottom: 2px;
-    border: 0;
-    border-bottom: 5px solid aqua;
-}
-.sob{
-    margin: 5%;
-}
-.bot{
-    margin-bottom: 2%;
-    margin-top: 2%; 
+a:hover {
+    background-color: #012764;
+    color: #9B4903;
+    transition: all 250ms;
 }
 
-.hobbies{
-    transition: all 150ms;
-    position: absolute;
+header img {
+    width: 100%;
+    height: 100vh;
 }
 
-.carrossel{
-    padding-left: 22%;
-    height: 600px;
-    padding-top: 100px;
-    
-}
-
-.h2hob{
-    font-size: 50px;
-    border-width: 5px 0;
-    border-color: aqua;
-    border-style: solid;
-}
-
-.texthob{
-    width: 50%;
-    padding-top: 13%;
-    padding-left: 40%;
-    max-width: 40%;
+@media screen and (max-width: 768px) {
+    .header-center {
+        width: 90%;
+    }
+    header a {
+        font-size: 15px
+    }
 }
