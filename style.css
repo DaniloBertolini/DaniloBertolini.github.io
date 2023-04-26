@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Silkscreen', cursive;
+    background-color: #030714;
 }
 
 .header-section-container {
@@ -20,7 +21,7 @@ body {
 .header-center {
     width: 50%;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
 header a {
@@ -34,10 +35,29 @@ header a {
     align-items: center;
 }
 
-a:hover {
+.secret {
+    height: 16px;
+    color: white;
+    opacity: 0;
+}
+
+.secret-container {
+    position: absolute;
+    top: 62.9%;
+    right: 39.7%;
+}
+
+header a:hover {
     background-color: #012764;
-    color: #9B4903;
     transition: all 250ms;
+}
+
+.header-center a:nth-child(1):hover, .header-center a:nth-child(3):hover {
+    color: #B61116;
+}
+
+.header-center a:nth-child(2):hover, .header-center a:nth-child(4):hover {
+    color: #185D00;
 }
 
 header img {
@@ -45,9 +65,34 @@ header img {
     height: 100vh;
 }
 
+.teste {
+    height: 500px;
+    background-color: #030714;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste2 {
+    height: 500px;
+    background-color: #070E26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste p, .teste2 p {
+    margin: 0 15px;
+    color: white;
+}
+
+.fa-solid {
+    color: white;
+}
+
 @media screen and (max-width: 768px) {
     .header-center {
-        width: 90%;
+        width: 80%;
     }
     header a {
         font-size: 15px
