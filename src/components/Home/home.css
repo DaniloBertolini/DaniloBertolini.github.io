@@ -1,0 +1,25 @@
+.home {
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    background: url('/public/pt_top.png') no-repeat center center fixed;
+    background-size: 100%;
+}
+
+@keyframes textoHome {
+    0% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.home > h2 {
+    font-size: 3rem;
+    animation: textoHome 2.5s infinite ease-in-out alternate-reverse;
+}
+
