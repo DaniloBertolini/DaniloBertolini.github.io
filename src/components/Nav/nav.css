@@ -1,0 +1,39 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #02041A;
+    border-bottom: 2px solid #004997;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-center {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-nav {
+    display: flex;
+    height: 85px;
+    text-decoration: none;
+    color: white;
+    flex-grow: 1;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-nav:hover {
+    background-color: #012764;
+    transition: all 250ms;
+}
+
+.links-nav:nth-child(1):hover, .links-nav:nth-child(3):hover {
+    color: #B61116;
+}
+
+.links-nav:nth-child(2):hover, .links-nav:nth-child(4):hover {
+    color: #185D00;
+}
